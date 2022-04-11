@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Mhmd Ali Hsen Portfolio',
+    title: 'Mhmd Ali Hsen Personal Blog',
     description: 'Mhmd Ali Hsen | Front End Web Developer',
     image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
   }
@@ -17,7 +17,7 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:site" content="@mhmdali102" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
